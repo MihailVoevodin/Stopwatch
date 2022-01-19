@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="stopwatch">
+            <div class="stopwatch-block">
+                <div class="stopwatch-block__title">Hours</div>
+                <div class="stopwatch-block__time hours">00</div>
+            </div>
+
+            <div class="stopwatch-block">
+                <div class="stopwatch-block__title">Minutes</div>
+                <div class="stopwatch-block__time minutes">00</div>
+            </div>
+
+            <div class="stopwatch-block">
+                <div class="stopwatch-block__title">Seconds</div>
+                <div class="stopwatch-block__time seconds">00</div>
+            </div>
+
+            <div class="stopwatch-block">
+                <div class="stopwatch-block__title">Milliseconds</div>
+                <div class="stopwatch-block__time milliseconds">00</div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button class="button start">Start</button>
+            <button class="button pause">Pause</button>
+            <button class="button stop">Stop</button>
+            <button class="button lap">Lap</button>
+        </div>
+
+        <div class="laps">
+            <div class="laps-counter">Laps</div>
+        </div>
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
